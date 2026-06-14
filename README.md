@@ -181,45 +181,6 @@ IntellMeet/
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Installation
-```bash
-git clone https://github.com/syedsadikaslam/IntellMeet-AI-Powered-Enterprise-Meeting-Collaboration-Platform.git
-cd IntellMeet-AI-Powered-Enterprise-Meeting-Collaboration-Platform
-```
-
-### 2. Environment Setup
-Create a `.env` file in the `server` directory.
-
-### 3. Launching (Development)
-```bash
-# Terminal 1: Backend
-cd server
-npm install
-npm run dev
-
-# Terminal 2: Frontend
-cd client
-npm install
-npm run dev
-```
-
-### 4. Launching (Production)
-```bash
-# Build the frontend
-cd client
-npm install
-npm run build
-
-# Start the server (Backend will serve the frontend automatically)
-cd ../server
-npm install
-npm start
-```
-
----
-
 ## 🔐 Environment Variables
 
 ### Server (`/server/.env`)
